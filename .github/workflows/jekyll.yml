@@ -40,7 +40,7 @@ jobs:
 
       # Upload the book's HTML as an artifact
       - name: Upload Artifact
-        uses: actions/upload-artifact@v2
+        uses: actions/upload-artifact@v4
         with:
           name: book-html  # Nombre del artefacto (personalizable)
           path: ./_build/html  # Asegúrate de que esta es la ruta correcta
